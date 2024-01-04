@@ -342,7 +342,7 @@ local availabilityzones = aws.getAvailabilityZones()['us-east-1'];
 		memory_size: 3008,
 
 		runtime: "provided",
-		layers: ["arn:aws:lambda:us-east-1:072686360478:layer:node-16_4_2:3"],
+		
 
 		environment: {
 			variables: {
