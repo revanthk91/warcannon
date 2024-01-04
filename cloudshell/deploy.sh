@@ -42,7 +42,7 @@ fi
 # Pull the repo:
 if [[ ! -f /aws/mde/warcannon/README.md ]]; then
 	echo "[*] Cloning the warcannon repo"
-	git clone https://github.com/c6fc/warcannon.git /aws/mde/warcannon > /dev/null
+	git clone https://github.com/revanthk91/warcannon.git /aws/mde/warcannon > /dev/null
 fi
 
 # Install Node and deploy.
